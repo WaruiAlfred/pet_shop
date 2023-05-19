@@ -1,7 +1,7 @@
 {
-  "name": "mdb-react-template",
+  "name": "Pet-Star",
   "version": "6.0.0",
-  "description": "template for mdb-react-ui-kit",
+  "description": "Pet star is an agency that caters for all your pets' needs.",
   "private": true,
   "dependencies": {
     "react": "^18.1.0",
