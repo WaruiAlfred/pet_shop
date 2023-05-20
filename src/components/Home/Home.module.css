@@ -1,8 +1,7 @@
 /* .top_row {
-  height: 100vh;
+
 }
 .bottom_row {
-  height: auto;
 } */
 
 .sign_up_btn {
@@ -11,4 +10,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* Intro section */
+.image {
+  width: 100%;
+  height: 42rem;
+  object-fit: cover;
+  object-position: center;
 }
