@@ -27,3 +27,38 @@ export const whatWeDo = [
     description: "We offer teeth cleaning for your pet done by professionals",
   },
 ];
+
+export const achievements = [
+  {
+    id: "001",
+    title: "Happy Clients",
+    count: "30",
+    countPrefix: "K",
+    icon: "users",
+    duration: "2",
+  },
+  {
+    id: "002",
+    title: "National Awards",
+    count: "105",
+    countPrefix: "+",
+    icon: "trophy",
+    duration: "2",
+  },
+  {
+    id: "003",
+    title: "Professionals",
+    count: "2",
+    countPrefix: "K+",
+    icon: "hands-helping",
+    duration: "2",
+  },
+  {
+    id: "004",
+    title: "Adopted Pets",
+    count: "15",
+    countPrefix: "K",
+    icon: "hand-holding-usd",
+    duration: "2",
+  },
+];
