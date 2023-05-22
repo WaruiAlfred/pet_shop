@@ -12,7 +12,7 @@ import {
   MDBIcon,
   MDBInputGroup,
 } from "mdb-react-ui-kit";
-import styles from "./Home.module.css";
+import styles from "./Navbar.module.css";
 
 export default function Navbar() {
   const [showNavNoTogglerThird, setShowNavNoTogglerThird] = useState(false);

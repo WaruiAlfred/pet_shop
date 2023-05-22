@@ -1,0 +1,7 @@
+.sign_up_btn {
+  margin-top: 10px;
+  width: 7rem !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
