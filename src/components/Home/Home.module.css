@@ -4,14 +4,6 @@
 .bottom_row {
 } */
 
-.sign_up_btn {
-  margin-top: 10px;
-  width: 7rem !important;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 /* Intro section */
 .image {
   width: 100%;
@@ -30,7 +22,7 @@
   border: 1px solid rgba(255, 255, 255, 0.77);
 }
 
-.footer {
+.achievements_section {
   background-image: url("https://media.istockphoto.com/id/1386669721/photo/cat-and-dog-on-black-background.jpg?s=612x612&w=0&k=20&c=CnVvOO54dNvvjtFuARmi5FzQMHI4kUaItWYMqzeK53M=");
 
   /* Full height */

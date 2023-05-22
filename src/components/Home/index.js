@@ -11,13 +11,14 @@ import {
 } from "mdb-react-ui-kit";
 import React, { Fragment } from "react";
 import styles from "./Home.module.css";
-import Navbar from "./Navbar";
+import Navbar from "../Layout/Navbar";
 import IntroSection from "./IntroSection";
 import dogPic from "../../assets/dog.png";
 import catPic from "../../assets/cat.png";
 import Card from "../Card";
 import { whatWeDo, achievements } from "../../data/index";
 import Achievement from "./Achievement";
+import Footer from "../Layout/Footer";
 
 const Home = () => {
   return (
@@ -78,11 +79,12 @@ const Home = () => {
           </MDBRow>
         </MDBContainer>
       </MDBRow>
-      <MDBRow className={`${styles.footer} mt-5 mx-auto `}>
+      <MDBRow className={`${styles.achievements_section} mt-5 mx-auto `}>
         {achievements.map((item) => (
           <Achievement key={item.id} {...item} />
         ))}
       </MDBRow>
+      <Footer />
     </Fragment>
   );
 };
