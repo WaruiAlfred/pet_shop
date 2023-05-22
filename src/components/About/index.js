@@ -4,21 +4,25 @@ import {
   MDBRow,
   MDBTypography,
   MDBIcon,
+  MDBCol,
 } from "mdb-react-ui-kit";
 import React from "react";
+import { expertTeam } from "../../data";
+import Card from "../Card";
 
 function About() {
   return (
     <>
-      <MDBRow className="">
-        <div className="bg-image">
+      <MDBRow className="mb-5">
+        <div className="bg-image  ">
           <img
             src="https://c4.wallpaperflare.com/wallpaper/855/961/202/rat-hands-pet-wallpaper-preview.jpg"
-            className="img-fluid w-100 h-75"
+            className="img-fluid"
             alt="Sample"
+            style={{ objectFit: "cover", height: "60vh", width: "100%" }}
           />
           <div
-            className="mask h-75"
+            className="mask "
             style={{ backgroundColor: "rgba(0, 0, 0, 0.6)", color: "white" }}
           >
             <div className="d-flex flex-column justify-content-center align-items-center h-100 px-5 ">
@@ -71,6 +75,24 @@ function About() {
             </div>
           </div>
         </div>
+      </MDBRow>
+      <MDBRow className="text-center ">
+        <MDBTypography variant="h1">Meet The Expert Team</MDBTypography>
+        <MDBTypography>
+          We have outsourced some of the best professionals in their field of
+          expertise
+        </MDBTypography>
+        <MDBRow className=" g-4 mb-5">
+          {expertTeam.map((item) => (
+            <MDBCol key={item.id}>
+              <Card
+                title={item.name}
+                description={item.designation}
+                image={item.image}
+              />
+            </MDBCol>
+          ))}
+        </MDBRow>
       </MDBRow>
     </>
   );
