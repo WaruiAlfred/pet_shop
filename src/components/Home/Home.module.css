@@ -23,9 +23,29 @@
 .glass_card {
   /* From https://css.glass */
   background: rgba(255, 255, 255, 0.29);
-  border-radius: 16px;
+  border-radius: 30px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10.5px);
   -webkit-backdrop-filter: blur(10.5px);
   border: 1px solid rgba(255, 255, 255, 0.77);
+}
+
+.footer {
+  background-image: url("https://media.istockphoto.com/id/1386669721/photo/cat-and-dog-on-black-background.jpg?s=612x612&w=0&k=20&c=CnVvOO54dNvvjtFuARmi5FzQMHI4kUaItWYMqzeK53M=");
+
+  /* Full height */
+  height: 100%;
+  min-height: 20rem;
+
+  /* Center and scale the image nicely */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+
+  opacity: 0.9;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

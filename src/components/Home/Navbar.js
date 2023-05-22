@@ -20,7 +20,7 @@ export default function Navbar() {
   return (
     <>
       <MDBNavbar expand="lg" dark bgColor="transparent">
-        <MDBContainer fluid>
+        <MDBContainer fluid className="px-3">
           <MDBNavbarToggler
             type="button"
             light

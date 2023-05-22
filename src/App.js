@@ -4,7 +4,7 @@ import Home from "./components/Home/index";
 
 function App() {
   return (
-    <MDBContainer fluid>
+    <MDBContainer fluid className="px-0">
       <Home />
     </MDBContainer>
   );
