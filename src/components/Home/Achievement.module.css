@@ -1,0 +1,15 @@
+.achievement {
+  padding: 2rem;
+  margin: 2rem;
+
+  /* border-radius: 2em;
+  box-shadow: 1px 2px 2px #0d3b66; */
+  /* background-color: #faf0ca; */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  color: #fff;
+}
