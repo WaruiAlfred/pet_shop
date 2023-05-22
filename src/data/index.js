@@ -22,9 +22,10 @@ export const whatWeDo = [
   },
   {
     id: 4,
-    image: "https://d2zp5xs5cp8zlg.cloudfront.net/image-46831-800.jpg",
-    title: "Teeth Cleaning",
-    description: "We offer teeth cleaning for your pet done by professionals",
+    image:
+      "https://jobs.vettimes.co.uk/getasset/ea537430-bfe0-4016-81f1-c7ccd68d936b/",
+    title: "Medical Consultation",
+    description: "Certified veterinary care for your pet. We are here to help",
   },
 ];
 
