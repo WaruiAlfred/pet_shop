@@ -22,8 +22,8 @@ export default function Card({ title, description, image }) {
         className="h-70"
       />
       <MDBCardBody className="d-flex flex-column align-items-center justify-content-center">
-        <MDBCardTitle>{title}</MDBCardTitle>
-        <MDBCardText>{description}</MDBCardText>
+        <MDBCardTitle className="fw-bold">{title}</MDBCardTitle>
+        <MDBCardText className="text-muted">{description}</MDBCardText>
       </MDBCardBody>
     </MDBCard>
   );
