@@ -7,6 +7,7 @@ import {
   MDBCardImage,
   MDBCol,
   MDBTypography,
+  MDBContainer,
 } from "mdb-react-ui-kit";
 import React, { Fragment } from "react";
 import styles from "./Home.module.css";
@@ -14,6 +15,9 @@ import Navbar from "./Navbar";
 import IntroSection from "./IntroSection";
 import dogPic from "../../assets/dog.png";
 import catPic from "../../assets/cat.png";
+import Card from "../Card";
+import { whatWeDo, achievements } from "../../data/index";
+import Achievement from "./Achievement";
 
 const Home = () => {
   return (
@@ -56,6 +60,28 @@ const Home = () => {
             </MDBCol>
           </MDBRow>
         </MDBCard>
+        <MDBContainer className="d-flex align-items-center justify-content-center flex-column">
+          <MDBTypography variant="h1" className="mb-2">
+            What Can We Do
+          </MDBTypography>
+          <MDBTypography className="MB-2">
+            But I must explain to you how all this mistaken idea of denouncing
+            pleasure and praising pain was born and I will give you a complete
+            account of the system
+          </MDBTypography>
+          <MDBRow className=" g-4 mb-5">
+            {whatWeDo.map((item) => (
+              <MDBCol key={item.id}>
+                <Card {...item} />
+              </MDBCol>
+            ))}
+          </MDBRow>
+        </MDBContainer>
+      </MDBRow>
+      <MDBRow className={`${styles.footer} mt-5 mx-auto `}>
+        {achievements.map((item) => (
+          <Achievement key={item.id} {...item} />
+        ))}
       </MDBRow>
     </Fragment>
   );
