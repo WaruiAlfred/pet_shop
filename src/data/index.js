@@ -94,3 +94,99 @@ export const expertTeam = [
     designation: "Manager",
   },
 ];
+
+export const pricing = [
+  {
+    id: 1,
+    title: "Friendly Pack",
+    price: "100",
+    description: [
+      {
+        id: 1,
+        text: "5 days services",
+      },
+      {
+        id: 2,
+        text: "Pet Shower",
+      },
+      {
+        id: 3,
+        text: "Basic Checkup",
+      },
+      {
+        id: 4,
+        text: "Grooming",
+      },
+      {
+        id: 5,
+        text: "Hair and Nail Cutting",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Premium Pack",
+    price: "200",
+    description: [
+      {
+        id: 1,
+        text: "Pet Park & Games",
+      },
+      {
+        id: 2,
+        text: "Fresh Snack",
+      },
+      {
+        id: 3,
+        text: "Control Hair Falling",
+      },
+      {
+        id: 4,
+        text: "15 days services",
+      },
+      {
+        id: 5,
+        text: "Pet Shower",
+      },
+      {
+        id: 6,
+        text: "Intensive Checkup",
+      },
+      {
+        id: 7,
+        text: "Grooming",
+      },
+      {
+        id: 8,
+        text: "Hair and Nail Cutting",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Medium Pack",
+    price: "150",
+    description: [
+      {
+        id: 1,
+        text: "10 days services",
+      },
+      {
+        id: 2,
+        text: "Pet Shower",
+      },
+      {
+        id: 3,
+        text: "Basic Checkup twice",
+      },
+      {
+        id: 4,
+        text: "Grooming",
+      },
+      {
+        id: 5,
+        text: "Hair and Nail Cutting",
+      },
+    ],
+  },
+];
