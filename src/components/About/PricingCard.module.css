@@ -1,0 +1,17 @@
+.pricing_card {
+  border-radius: 3rem;
+  height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.pricing_card:hover {
+  background-color: #000;
+  color: #fff;
+  transform: scale(1.15);
+  z-index: 1;
+}
+
+.buy_btn:hover {
+  color: #dc4c64;
+  background-color: #fff;
+}
