@@ -5,12 +5,22 @@ import {
   MDBTypography,
   MDBIcon,
   MDBCol,
+  MDBBtn,
+  MDBBtnGroup,
 } from "mdb-react-ui-kit";
-import React from "react";
+import React, { useState } from "react";
 import { expertTeam } from "../../data";
 import Card from "../Card";
+import PricingCard from "./PricingCard";
+import { pricing } from "../../data/index";
 
 function About() {
+  const [pricingValue, setPricingValue] = useState("month");
+
+  const handlePricingBtnClick = (e) => {
+    setPricingValue(e.target.value);
+  };
+
   return (
     <>
       <MDBRow className="mb-5">
@@ -76,24 +86,69 @@ function About() {
           </div>
         </div>
       </MDBRow>
-      <MDBRow className="text-center ">
-        <MDBTypography variant="h1">Meet The Expert Team</MDBTypography>
-        <MDBTypography>
-          We have outsourced some of the best professionals in their field of
-          expertise
-        </MDBTypography>
-        <MDBRow className=" g-4 mb-5">
-          {expertTeam.map((item) => (
-            <MDBCol key={item.id}>
-              <Card
-                title={item.name}
-                description={item.designation}
-                image={item.image}
-                socials={true}
-              />
-            </MDBCol>
-          ))}
-        </MDBRow>
+      <MDBRow className="px-5 ">
+        <MDBContainer fluid>
+          <MDBRow className="text-center ">
+            <MDBTypography variant="h1">Meet The Expert Team</MDBTypography>
+            <MDBTypography>
+              We have outsourced some of the best professionals in their field
+              of expertise
+            </MDBTypography>
+            <MDBRow className=" g-4 mb-5">
+              {expertTeam.map((item) => (
+                <MDBCol key={item.id}>
+                  <Card
+                    title={item.name}
+                    description={item.designation}
+                    image={item.image}
+                    socials={true}
+                  />
+                </MDBCol>
+              ))}
+            </MDBRow>
+          </MDBRow>
+          <MDBRow className="d-flex justify-content-between align-items-center mb-5 w-100">
+            <div className="d-flex flex-column w-50 ">
+              <MDBTypography variant="h1">Best Pricing Plan</MDBTypography>
+              <MDBTypography className="text-muted">
+                Our Pricing Plan is designed to cater to your pets needs. With a
+                range of services and products, our plan offers you the
+                flexibility, and value you need . Choose the plan that suits you
+                and give your pet the best life!
+              </MDBTypography>
+            </div>
+            <MDBBtnGroup shadow="0" className="w-25 ">
+              <MDBBtn
+                color="danger"
+                value={"month"}
+                rounded
+                outline={pricingValue === "month"}
+                onClick={handlePricingBtnClick}
+              >
+                Monthly
+              </MDBBtn>
+              <MDBBtn
+                color="danger"
+                value={"year"}
+                rounded
+                outline={pricingValue === "year"}
+                onClick={handlePricingBtnClick}
+              >
+                Yearly
+              </MDBBtn>
+            </MDBBtnGroup>
+          </MDBRow>
+          <MDBRow className=" g-4 mb-5">
+            {pricing.map((item) => (
+              <MDBCol key={item.id}>
+                <PricingCard
+                  {...item}
+                  price={pricingValue === "year" ? item.price * 12 : item.price}
+                />
+              </MDBCol>
+            ))}
+          </MDBRow>
+        </MDBContainer>
       </MDBRow>
     </>
   );
