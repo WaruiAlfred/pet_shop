@@ -20,7 +20,7 @@ export default function Testimonial() {
         <div class="col-md-4 mb-5 mb-md-0">
           <div class="d-flex justify-content-center mb-4">
             <img
-              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+              src="https://media.istockphoto.com/id/1313422725/photo/portrait-of-a-beautiful-authentic-latina-female-with-afro-hair-wearing-light-blue-jumper-and.jpg?s=612x612&w=0&k=20&c=OjNtJUIK9OMczJrC0vQE5bu7RGC3TUMx4Gx_PKn0OzQ="
               class="rounded-circle shadow-1-strong"
               width="150"
               height="150"
@@ -54,7 +54,7 @@ export default function Testimonial() {
         <div class="col-md-4 mb-5 mb-md-0">
           <div class="d-flex justify-content-center mb-4">
             <img
-              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+              src="https://media.istockphoto.com/id/1192686016/photo/portrait-of-young-happy-woman.jpg?s=612x612&w=0&k=20&c=so3OUsSTyoLdblaS2_fMB0bM0z-xMk0_PnY9WFE9RoA="
               class="rounded-circle shadow-1-strong"
               width="150"
               height="150"
@@ -88,7 +88,7 @@ export default function Testimonial() {
         <div class="col-md-4 mb-0">
           <div class="d-flex justify-content-center mb-4">
             <img
-              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
+              src="https://media.istockphoto.com/id/1296158947/photo/portrait-of-creative-trendy-black-african-male-designer-laughing.jpg?s=612x612&w=0&k=20&c=1Ws_LSzWjYvegGxHYQkkgVytdpDcnmK0upJyGOzEPcg="
               class="rounded-circle shadow-1-strong"
               width="150"
               height="150"
