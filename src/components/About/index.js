@@ -15,6 +15,7 @@ import PricingCard from "./PricingCard";
 import { pricing } from "../../data/index";
 import Testimonial from "./Testimonial";
 import GiftSection from "./GiftSection";
+import styles from "./About.module.css";
 
 function About() {
   const [pricingValue, setPricingValue] = useState("month");
@@ -46,7 +47,9 @@ function About() {
                 <br />
                 who are so beguiled and demoralized by hatred torwards pets.{" "}
               </MDBTypography>
-              <MDBContainer className="d-flex flex-row justify-content-evenly align-items-center w-50 text-muted">
+              <MDBContainer
+                className={` ${styles.responsive_width} d-flex flex-row justify-content-evenly align-items-center w-50 text-muted`}
+              >
                 <MDBListGroup>
                   <MDBTypography listUnStyled className="mb-0">
                     <li className="mb-1">
@@ -109,17 +112,22 @@ function About() {
               ))}
             </MDBRow>
           </MDBRow>
-          <MDBRow className="d-flex justify-content-between align-items-center mb-5 w-100">
-            <div className="d-flex flex-column w-50 ">
+          <MDBRow className="d-flex flex-sm-column flex-md-row justify-content-between align-items-center mb-5 ">
+            <div
+              className={` ${styles.responsive_width} d-flex flex-column w-50`}
+            >
               <MDBTypography variant="h1">Best Pricing Plan</MDBTypography>
               <MDBTypography className="text-muted">
                 Our Pricing Plan is designed to cater to your pets needs. With a
                 range of services and products, our plan offers you the
-                flexibility, and value you need . Choose the plan that suits you
+                flexibility, and value you need.Choose the plan that suits you
                 and give your pet the best life!
               </MDBTypography>
             </div>
-            <MDBBtnGroup shadow="0" className="w-25 ">
+            <MDBBtnGroup
+              shadow="0"
+              className={` ${styles.responsive_width} w-25`}
+            >
               <MDBBtn
                 color="danger"
                 value={"month"}

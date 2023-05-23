@@ -9,6 +9,7 @@ import {
   MDBCardImage,
 } from "mdb-react-ui-kit";
 import dogPic from "../../assets/dog2.png";
+import styles from "./About.module.css";
 
 function GiftSection() {
   return (
@@ -28,7 +29,11 @@ function GiftSection() {
               For our customers with more than a year of subscription, we offer
               a special gift for your pet.
             </MDBCardText>
-            <MDBBtn color="danger" rounded className="w-25">
+            <MDBBtn
+              color="danger"
+              rounded
+              className={` ${styles.responsive_width} w-25`}
+            >
               Contact Us
             </MDBBtn>
           </MDBCardBody>

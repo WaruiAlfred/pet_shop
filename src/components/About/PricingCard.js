@@ -10,7 +10,7 @@ import styles from "./PricingCard.module.css";
 
 export default function PricingCard({ title, price, description }) {
   return (
-    <MDBCard className={`${styles.pricing_card}`}>
+    <MDBCard className={`${styles.pricing_card}`} style={{ minWidth: "15rem" }}>
       <MDBCardBody className="d-flex flex-column align-items-center justify-content-center">
         <MDBTypography variant="h4">{title}</MDBTypography>
         <MDBTypography variant="h1">&#36;{price}</MDBTypography>
