@@ -89,6 +89,7 @@ function About() {
                 title={item.name}
                 description={item.designation}
                 image={item.image}
+                socials={true}
               />
             </MDBCol>
           ))}

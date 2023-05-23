@@ -6,6 +6,7 @@
   backdrop-filter: blur(10.5px);
   -webkit-backdrop-filter: blur(10.5px);
   border: 1px solid rgba(255, 255, 255, 0.77);
+  min-width: 12rem;
 }
 
 .glass_card:hover {
@@ -21,3 +22,19 @@
   width: 2rem;
   margin: auto;
 } */
+
+.socials {
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 5rem;
+  margin-right: 1rem;
+  margin-top: 3.6rem;
+  color: #fff;
+}
