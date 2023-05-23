@@ -13,6 +13,7 @@ import { expertTeam } from "../../data";
 import Card from "../Card";
 import PricingCard from "./PricingCard";
 import { pricing } from "../../data/index";
+import Testimonial from "./Testimonial";
 
 function About() {
   const [pricingValue, setPricingValue] = useState("month");
@@ -147,6 +148,9 @@ function About() {
                 />
               </MDBCol>
             ))}
+          </MDBRow>
+          <MDBRow>
+            <Testimonial />
           </MDBRow>
         </MDBContainer>
       </MDBRow>
