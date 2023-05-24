@@ -1,16 +1,43 @@
-import React from 'react';
+import React from "react";
 import { createRoot } from "react-dom/client";
-import './index.css';
-import 'mdb-react-ui-kit/dist/css/mdb.min.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import "./index.css";
+import "mdb-react-ui-kit/dist/css/mdb.min.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import ErrorPage from "./pages/ErroPage";
+import HomePage from "./pages/HomePage";
+import AboutPage from "./pages/AboutPage";
+import AuthPage from "./pages/AuthPage";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+    errorElement: <ErrorPage />,
+    children: [
+      {
+        path: "/",
+        element: <HomePage />,
+      },
+      {
+        path: "about",
+        element: <AboutPage />,
+      },
+    ],
+  },
+  {
+    path: "auth",
+    element: <AuthPage />,
+  },
+]);
 
 const container = document.getElementById("root");
 const root = createRoot(container);
 
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
