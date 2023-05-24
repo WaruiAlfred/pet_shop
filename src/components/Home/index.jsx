@@ -24,7 +24,7 @@ const Home = () => {
   return (
     <Fragment>
       <MDBRow className={`${styles.top_row} bg-dark bg-gradient mb-5`}>
-        <Navbar />
+        {/* <Navbar /> */}
         <IntroSection />
       </MDBRow>
       <MDBRow className={`bg-light ${styles.bottom_row} px-5`}>
@@ -84,7 +84,7 @@ const Home = () => {
           <Achievement key={item.id} {...item} />
         ))}
       </MDBRow>
-      <Footer />
+      {/* <Footer /> */}
     </Fragment>
   );
 };

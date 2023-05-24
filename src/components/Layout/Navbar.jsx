@@ -13,6 +13,7 @@ import {
   MDBInputGroup,
 } from "mdb-react-ui-kit";
 import styles from "./Navbar.module.css";
+import { LinkContainer } from "react-router-bootstrap";
 
 export default function Navbar() {
   const [showNavNoTogglerThird, setShowNavNoTogglerThird] = useState(false);
@@ -23,7 +24,7 @@ export default function Navbar() {
         <MDBContainer fluid className="px-3">
           <MDBNavbarToggler
             type="button"
-            light
+            light="true"
             data-target="#navbarTogglerDemo03"
             aria-controls="navbarTogglerDemo03"
             aria-expanded="false"
@@ -32,31 +33,35 @@ export default function Navbar() {
           >
             <MDBIcon icon="bars" fas />
           </MDBNavbarToggler>
-          <MDBNavbarBrand href="#" className="text-danger">
-            Pet Star
-          </MDBNavbarBrand>
+          <LinkContainer to="/">
+            <MDBNavbarBrand className="text-danger">Pet Star</MDBNavbarBrand>
+          </LinkContainer>
           <MDBCollapse navbar show={showNavNoTogglerThird}>
             <MDBNavbarNav className="mr-auto mb-2 mb-lg-0">
               <MDBNavbarItem>
-                <MDBNavbarLink active aria-current="page" href="#">
-                  Home
-                </MDBNavbarLink>
+                <LinkContainer to="/">
+                  <MDBNavbarLink active aria-current="page">
+                    Home
+                  </MDBNavbarLink>
+                </LinkContainer>
               </MDBNavbarItem>
-              <MDBNavbarItem>
+              {/* <MDBNavbarItem>
                 <MDBNavbarLink href="#">Categories</MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
                 <MDBNavbarLink href="#">Images</MDBNavbarLink>
-              </MDBNavbarItem>
+              </MDBNavbarItem> */}
               <MDBNavbarItem>
-                <MDBNavbarLink href="#">About</MDBNavbarLink>
+                <LinkContainer to="/about">
+                  <MDBNavbarLink>About</MDBNavbarLink>
+                </LinkContainer>
               </MDBNavbarItem>
-              <MDBNavbarItem>
+              {/* <MDBNavbarItem>
                 <MDBNavbarLink href="#">Contact</MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
                 <MDBNavbarLink href="#">Services</MDBNavbarLink>
-              </MDBNavbarItem>
+              </MDBNavbarItem> */}
             </MDBNavbarNav>
             {/*<MDBInputGroup tag="form" className="d-flex w-auto mb-3">
               <input
@@ -67,13 +72,15 @@ export default function Navbar() {
               />
               <MDBBtn outline>Search</MDBBtn>
   </MDBInputGroup>*/}
-            <MDBBtn
-              className={`d-flex w-auto mb-3 ${styles.sign_up_btn}`}
-              rounded
-              color="danger"
-            >
-              Sign Up
-            </MDBBtn>
+            <LinkContainer to="/auth">
+              <MDBBtn
+                className={`d-flex w-auto mb-3 ${styles.sign_up_btn}`}
+                rounded
+                color="danger"
+              >
+                Sign Up
+              </MDBBtn>
+            </LinkContainer>
           </MDBCollapse>
         </MDBContainer>
       </MDBNavbar>
