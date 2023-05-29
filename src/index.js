@@ -9,6 +9,8 @@ import ErrorPage from "./pages/ErroPage";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import AuthPage from "./pages/AuthPage";
+import ImagesPage from "./pages/ImagesPage";
+import ServicesPage from "./pages/ServicesPage";
 
 const router = createBrowserRouter([
   {
@@ -21,8 +23,16 @@ const router = createBrowserRouter([
         element: <HomePage />,
       },
       {
+        path: "images",
+        element: <ImagesPage />,
+      },
+      {
         path: "about",
         element: <AboutPage />,
+      },
+      {
+        path: "services",
+        element: <ServicesPage />,
       },
     ],
   },
