@@ -11,20 +11,17 @@ import {
 } from "mdb-react-ui-kit";
 import React, { Fragment } from "react";
 import styles from "./Home.module.css";
-import Navbar from "../Layout/Navbar";
 import IntroSection from "./IntroSection";
 import dogPic from "../../assets/dog.png";
 import catPic from "../../assets/cat.png";
 import Card from "../Card";
 import { whatWeDo, achievements } from "../../data/index";
 import Achievement from "./Achievement";
-import Footer from "../Layout/Footer";
 
 const Home = () => {
   return (
     <Fragment>
       <MDBRow className={`${styles.top_row} bg-dark bg-gradient mb-5`}>
-        {/* <Navbar /> */}
         <IntroSection />
       </MDBRow>
       <MDBRow className={`bg-light ${styles.bottom_row} px-5`}>
@@ -84,7 +81,6 @@ const Home = () => {
           <Achievement key={item.id} {...item} />
         ))}
       </MDBRow>
-      {/* <Footer /> */}
     </Fragment>
   );
 };
