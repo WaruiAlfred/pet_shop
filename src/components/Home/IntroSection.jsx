@@ -1,6 +1,7 @@
 import React from "react";
 import { MDBCarousel, MDBCarouselItem, MDBBtn } from "mdb-react-ui-kit";
 import styles from "./Home.module.css";
+import { LinkContainer } from "react-router-bootstrap";
 
 export default function IntroSection() {
   return (
@@ -15,10 +16,12 @@ export default function IntroSection() {
         <p>
           We give our best of services to make sure your pets are comfortable.
         </p>
-        <MDBBtn color="danger" rounded className="mb-3">
-          {" "}
-          Our Services
-        </MDBBtn>
+        <LinkContainer to="/services">
+          <MDBBtn color="danger" rounded className="mb-3">
+            {" "}
+            Our Services
+          </MDBBtn>
+        </LinkContainer>
       </MDBCarouselItem>
       <MDBCarouselItem
         className={`w-100 d-block ${styles.image}`}
