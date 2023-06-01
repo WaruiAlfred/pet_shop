@@ -48,11 +48,11 @@ export default function Navbar() {
               {/* <MDBNavbarItem>
                 <MDBNavbarLink href="#">Categories</MDBNavbarLink>
               </MDBNavbarItem> */}
-              <MDBNavbarItem>
+              {/* <MDBNavbarItem>
                 <LinkContainer to="/images">
                   <MDBNavbarLink>Images</MDBNavbarLink>
                 </LinkContainer>
-              </MDBNavbarItem>
+              </MDBNavbarItem> */}
               <MDBNavbarItem>
                 <LinkContainer to="/about">
                   <MDBNavbarLink>About</MDBNavbarLink>
@@ -61,11 +61,11 @@ export default function Navbar() {
               {/* <MDBNavbarItem>
                 <MDBNavbarLink href="#">Contact</MDBNavbarLink>
               </MDBNavbarItem> */}
-              <MDBNavbarItem>
+              {/* <MDBNavbarItem>
                 <LinkContainer to="/services">
                   <MDBNavbarLink>Services</MDBNavbarLink>
                 </LinkContainer>
-              </MDBNavbarItem>
+              </MDBNavbarItem> */}
             </MDBNavbarNav>
             {/*<MDBInputGroup tag="form" className="d-flex w-auto mb-3">
               <input
