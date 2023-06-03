@@ -67,15 +67,7 @@ export default function Navbar() {
                 </LinkContainer>
               </MDBNavbarItem>
             </MDBNavbarNav>
-            {/*<MDBInputGroup tag="form" className="d-flex w-auto mb-3">
-              <input
-                className="form-control"
-                placeholder="Type query"
-                aria-label="Search"
-                type="Search"
-              />
-              <MDBBtn outline>Search</MDBBtn>
-  </MDBInputGroup>*/}
+
             <LinkContainer to="/auth">
               <MDBBtn
                 className={`d-flex w-auto mb-3 ${styles.sign_up_btn}`}
