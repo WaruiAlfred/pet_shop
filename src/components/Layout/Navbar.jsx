@@ -10,7 +10,6 @@ import {
   MDBBtn,
   MDBNavbarNav,
   MDBIcon,
-  MDBInputGroup,
 } from "mdb-react-ui-kit";
 import styles from "./Navbar.module.css";
 import { LinkContainer } from "react-router-bootstrap";
