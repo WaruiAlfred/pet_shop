@@ -22,7 +22,7 @@ export default function ImageCard() {
       <MDBRipple
         rippleTag="a"
         onClick={handleClick}
-        className="d-flex align-items-center justify-content-center mb-3 p-3"
+        className="d-flex align-items-center justify-content-center mb-3 h-100 pt-5"
       >
         <MDBTypography className="align-center">
           Image description
