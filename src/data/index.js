@@ -219,7 +219,7 @@ export const sampleImages = [
   {
     id: 5,
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsMp4tLnPjLuwWVaWz9pPIaZrjqRxXZzZux9udklmMDO_k4OMIkV4SWk49RY2ecLbwwWc&usqp=CAU",
+      "https://cdn.pixabay.com/photo/2017/02/20/18/03/cat-2083492_1280.jpg",
     description: "Feeling myself",
   },
   {
