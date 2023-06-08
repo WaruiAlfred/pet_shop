@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { MDBRipple, MDBTypography } from "mdb-react-ui-kit";
 import ReactCardFlip from "react-card-flip";
-import styles from "./Image.module.css";
 
 export default function ImageCard() {
   const [isFlipped, setIsFlipped] = useState(false);
