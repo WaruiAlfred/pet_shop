@@ -194,47 +194,56 @@ export const pricing = [
 export const sampleImages = [
   {
     id: 1,
-    image: "",
-    description: "",
+    image:
+      "https://static.foxbusiness.com/foxbusiness.com/content/uploads/2022/04/iStock-1324099927.jpg",
+    description: "Feeling good with my new haircut",
   },
   {
     id: 2,
-    image: "",
-    description: "",
+    image:
+      "https://i.cbc.ca/1.5077459.1553886010!/fileImage/httpImage/pets.jpg",
+    description: "Nothing but a happy bunch",
   },
   {
     id: 3,
-    image: "",
-    description: "",
+    image:
+      "https://www.thesprucepets.com/thmb/y4YEErOurgco9QQO-zJ6Ld1yVkQ=/3000x0/filters:no_upscale():strip_icc()/english-dog-breeds-4788340-hero-14a64cf053ca40f78e5bd078b052d97f.jpg",
+    description: "Mr Bulldog is ready for the show",
   },
   {
     id: 4,
-    image: "",
-    description: "",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSigYq1kqyDo4tAfLLwPkE3_px4Pmi4FFAuOw&usqp=CAU",
+    description: "Happy to be here",
   },
   {
     id: 5,
-    image: "",
-    description: "",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsMp4tLnPjLuwWVaWz9pPIaZrjqRxXZzZux9udklmMDO_k4OMIkV4SWk49RY2ecLbwwWc&usqp=CAU",
+    description: "Feeling myself",
   },
   {
     id: 6,
-    image: "",
-    description: "",
+    image:
+      "https://blog.healthypawspetinsurance.com/wp-content/uploads/2023/03/cat-shelter.jpg?w=775",
+    description: "Hello there",
   },
   {
     id: 7,
-    image: "",
-    description: "",
+    image:
+      "https://cdn.britannica.com/37/91837-050-2CC301F9/Children-pet-dog.jpg",
+    description: "Happy to be around my friends",
   },
   {
     id: 8,
-    image: "",
-    description: "",
+    image:
+      "https://lh5.googleusercontent.com/F5Q1c-Vr5mpeNcxrSE1MxEuH_SZ93t4gJD95xvcV_Hsf2LlJhnExfX47Dhw4rd2rtaIMdrzvO1UvkMldNIMUvNzmq0JqUVSegFSCJNdFr1dN-0PEG95pJ7e6hzeOVffTY6oNlyYcnz6oz6V2DL6t1RgZNSwnO17-zxoCyDDfZV8lkfUHrqEgP-dvRKHDnmpJ4SOfWsgW6Q",
+    description: "Give me a hug buddy",
   },
   {
     id: 9,
-    image: "",
-    description: "",
+    image:
+      "https://www.humanesociety.org/sites/default/files/2022-10/cat-vet-583001.jpg",
+    description: "Hungry for some food",
   },
 ];
