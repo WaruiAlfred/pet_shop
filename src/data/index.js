@@ -237,7 +237,7 @@ export const sampleImages = [
   {
     id: 8,
     image:
-      "https://lh5.googleusercontent.com/F5Q1c-Vr5mpeNcxrSE1MxEuH_SZ93t4gJD95xvcV_Hsf2LlJhnExfX47Dhw4rd2rtaIMdrzvO1UvkMldNIMUvNzmq0JqUVSegFSCJNdFr1dN-0PEG95pJ7e6hzeOVffTY6oNlyYcnz6oz6V2DL6t1RgZNSwnO17-zxoCyDDfZV8lkfUHrqEgP-dvRKHDnmpJ4SOfWsgW6Q",
+      "https://media-be.chewy.com/wp-content/uploads/2018/05/reasons-to-hug-your-dog9-x-670-440x.jpg",
     description: "Give me a hug buddy",
   },
   {
