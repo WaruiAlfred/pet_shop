@@ -196,54 +196,93 @@ export const sampleImages = [
     id: 1,
     image:
       "https://static.foxbusiness.com/foxbusiness.com/content/uploads/2022/04/iStock-1324099927.jpg",
-    description: "Feeling good with my new haircut",
+    title: "Clam and Harry",
+    description: `Calm and Harry, two serene pets, 
+         exude tranquility in their own unique ways. Calm, an
+          aged feline, gracefully paces through life, emitting an aura 
+          of peaceful contentment. Meanwhile, Harry, a mature canine, embodies
+          tranquility with his composed demeanor, exuding wisdom and serenity 
+          despite his advancing years.`,
   },
   {
     id: 2,
     image:
       "https://i.cbc.ca/1.5077459.1553886010!/fileImage/httpImage/pets.jpg",
-    description: "Nothing but a happy bunch",
+    title: "The Happy Bunch",
+    description: `The "Happy Bunch" is a spirited group of pets, radiating joy 
+                with their lively mannerisms and infectious enthusiasm. Their playful interactions 
+                create a harmonious bond, as they chase each other with wagging tails and engage 
+                in delightful games. Their genuine camaraderie and shared happiness make them an 
+                irresistible joy to be around.`,
   },
   {
     id: 3,
     image:
       "https://www.thesprucepets.com/thmb/y4YEErOurgco9QQO-zJ6Ld1yVkQ=/3000x0/filters:no_upscale():strip_icc()/english-dog-breeds-4788340-hero-14a64cf053ca40f78e5bd078b052d97f.jpg",
-    description: "Mr Bulldog is ready for the show",
+    title: "Buzzy the Bulldog",
+    description: `Buzzy the Bulldog, a mature and gentle soul, moves with a unique blend of
+      grace and power. Despite reaching his golden years, Buzzy's playful spirit remains undiminished,
+      often showcasing bursts of energy that are as endearing as they are unexpected. 
+      With a dignified charm and a heart full of love, Buzzy brings joy and warmth to all who are lucky enough to know him.`,
   },
   {
     id: 4,
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSigYq1kqyDo4tAfLLwPkE3_px4Pmi4FFAuOw&usqp=CAU",
-    description: "Happy to be here",
+    title: "Jos",
+    description: `Jos, a sprightly young pup, exudes boundless energy with each wag of his tail and 
+            playful leap in the air. Bursting with curiosity, Jos eagerly explores the world around him, sniffing
+            out new adventures at every turn. Despite his youthful exuberance, Jos's gentle nature shines through,
+              making him a delightful companion for all ages.`,
   },
   {
     id: 5,
     image:
       "https://cdn.pixabay.com/photo/2017/02/20/18/03/cat-2083492_1280.jpg",
-    description: "Feeling myself",
+    title: "Cappie",
+    description: `Cappie, a lively little kitten, captivates hearts with her endearing 
+              charm and mischievous nature. With each graceful pounce and playful swat, Cappie embodies
+              the curiosity and energy of youth. At her tender age, Cappie's innocent antics bring joy and
+                laughter to all who witness her playful escapades.`,
   },
   {
     id: 6,
     image:
       "https://blog.healthypawspetinsurance.com/wp-content/uploads/2023/03/cat-shelter.jpg?w=775",
-    description: "Hello there",
+    title: "Alvin",
+    description: `Alvin, a wise and seasoned feline, gracefully navigates his surroundings with 
+              a regal air. At his age, he has mastered the art of tranquility, often found basking in sunlit 
+              spots or leisurely observing the world from his favorite perch. Alvin's elegant presence and serene 
+              demeanor make him the epitome of feline sophistication.`,
   },
   {
     id: 7,
     image:
       "https://cdn.britannica.com/37/91837-050-2CC301F9/Children-pet-dog.jpg",
-    description: "Happy to be around my friends",
+    title: "Bruno",
+    description: `Bruno, a loyal and mature canine, approaches life with a calm and composed 
+              demeanor, always ready to lend a comforting paw. With each gentle wag of his tail, Bruno 
+              radiates an unwavering devotion and unwavering love for his family. Despite his advancing years, 
+              his playful spirit shines through, reminding everyone of the joyous puppy he once was.`,
   },
   {
     id: 8,
     image:
       "https://media-be.chewy.com/wp-content/uploads/2018/05/reasons-to-hug-your-dog9-x-670-440x.jpg",
-    description: "Give me a hug buddy",
+    title: "Buddy",
+    description: `Buddy, a sleek and loyal black dog, carries an air of gentle confidence as he walks 
+                  by your side. With each wag of his tail, he radiates warmth and companionship, always ready for 
+                  a game of fetch or a cuddle session. Despite his advancing years, Buddy's youthful spirit and 
+                  unwavering devotion make him a cherished friend for life.`,
   },
   {
     id: 9,
     image:
       "https://www.humanesociety.org/sites/default/files/2022-10/cat-vet-583001.jpg",
-    description: "Hungry for some food",
+    title: "Casper",
+    description: `Casper, a distinguished black and white feline, possesses an air of elegance with 
+              every step he takes. Despite his advanced years, Casper's playful spirit remains alive, as he effortlessly 
+              pounces and frolics with grace. His contrasting coat mirrors his enigmatic nature, enchanting all who encounter 
+              this timeless and ageless beauty.`,
   },
 ];
