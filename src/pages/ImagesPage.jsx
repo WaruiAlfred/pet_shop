@@ -11,13 +11,13 @@ const ImagesPage = () => {
           Some of the pets at our center
         </MDBTypography>
         <MDBTypography className="text-center text-muted">
-          Click on <b>image</b> to see what they have to say
+          Click on <b>image</b> to see their brief description
         </MDBTypography>
       </MDBRow>
       <MDBRow className="mb-3">
         {sampleImages.map((image) => (
           <MDBCol md="4" sm="6" xs="12" key={image.id}>
-            <ImageCard image={image.image} description={image.description} />
+            <ImageCard {...image} />
           </MDBCol>
         ))}
       </MDBRow>
