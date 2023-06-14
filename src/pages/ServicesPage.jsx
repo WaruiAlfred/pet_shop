@@ -1,4 +1,4 @@
-import { MDBRow } from "mdb-react-ui-kit";
+import { MDBRow, MDBTypography } from "mdb-react-ui-kit";
 import React from "react";
 
 function ServicesPage() {
@@ -17,6 +17,22 @@ function ServicesPage() {
           }}
         />
       </MDBRow>
+      <MDBRow className="d-flex flex-column justify-content-center align-items-center ">
+        <div className="d-flex flex-column justify-content-center align-items-center w-50">
+          <MDBTypography variant="h1" className="text-center">
+            Our Services
+          </MDBTypography>
+          <MDBTypography className="text-center">
+            At Pet Star, we serve pets of every type, age, and phase of life
+            because we truly love animals. We show it with every belly rub, long
+            walk, scratch behind the ear, and treat we give. We’d love to be
+            your trusted sidekick for a healthy and happy pet because we know we
+            can deliver trusted, quality care and a professional, stress-free
+            experience for you.{" "}
+          </MDBTypography>
+        </div>
+      </MDBRow>
+      <MDBRow></MDBRow>
     </>
   );
 }
