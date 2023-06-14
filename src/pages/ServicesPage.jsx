@@ -1,5 +1,29 @@
-import { MDBRow, MDBTypography } from "mdb-react-ui-kit";
 import React from "react";
+import { MDBRow, MDBTypography } from "mdb-react-ui-kit";
+import { services } from "../data/index";
+
+const Service = ({ id, title, description, image }) => {
+  return (
+    <MDBRow
+      className={`d-flex 
+      ${
+        id % 2 === 0 ? "flex-md-row-reverse" : "flex-md-row"
+      } flex-sm-column justify-content-center align-items-center mb-5 px-5`}
+    >
+      <img
+        src={image}
+        className="img-fluid hover-shadow w-50 mb-2"
+        alt={title}
+      />
+      <div className="d-flex flex-column justify-content-center align-items-center w-50">
+        <MDBTypography variant="h2" className="text-center">
+          {title}
+        </MDBTypography>
+        <MDBTypography className="text-center">{description}</MDBTypography>
+      </div>
+    </MDBRow>
+  );
+};
 
 function ServicesPage() {
   return (
@@ -17,7 +41,7 @@ function ServicesPage() {
           }}
         />
       </MDBRow>
-      <MDBRow className="d-flex flex-column justify-content-center align-items-center ">
+      <MDBRow className="d-flex flex-column justify-content-center align-items-center mb-5">
         <div className="d-flex flex-column justify-content-center align-items-center w-50">
           <MDBTypography variant="h1" className="text-center">
             Our Services
@@ -32,7 +56,9 @@ function ServicesPage() {
           </MDBTypography>
         </div>
       </MDBRow>
-      <MDBRow></MDBRow>
+      {services.map((service) => (
+        <Service key={service.id} {...service} />
+      ))}
     </>
   );
 }
