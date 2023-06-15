@@ -47,12 +47,13 @@ function ServicesPage() {
             Our Services
           </MDBTypography>
           <MDBTypography className="text-center">
-            At Pet Star, we serve pets of every type, age, and phase of life
-            because we truly love animals. We show it with every belly rub, long
-            walk, scratch behind the ear, and treat we give. We’d love to be
-            your trusted sidekick for a healthy and happy pet because we know we
-            can deliver trusted, quality care and a professional, stress-free
-            experience for you.{" "}
+            At Pet Star, we passionately serve all types of pets, regardless of
+            species or age. Our love for animals is evident in every caring
+            gesture we offer, from belly rubs to treats. We aim to be your
+            trusted companion in ensuring your pet's well-being and happiness.
+            Count on us for dependable, high-quality care and an impeccable,
+            stress-free experience. Let us support you in creating a healthy and
+            joyful life for your beloved companion.
           </MDBTypography>
         </div>
       </MDBRow>
