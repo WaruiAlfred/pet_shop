@@ -10,7 +10,6 @@ import {
   MDBBtn,
   MDBNavbarNav,
   MDBIcon,
-  MDBInputGroup,
 } from "mdb-react-ui-kit";
 import styles from "./Navbar.module.css";
 import { LinkContainer } from "react-router-bootstrap";
@@ -48,11 +47,11 @@ export default function Navbar() {
               {/* <MDBNavbarItem>
                 <MDBNavbarLink href="#">Categories</MDBNavbarLink>
               </MDBNavbarItem> */}
-              {/* <MDBNavbarItem>
+              <MDBNavbarItem>
                 <LinkContainer to="/images">
                   <MDBNavbarLink>Images</MDBNavbarLink>
                 </LinkContainer>
-              </MDBNavbarItem> */}
+              </MDBNavbarItem>
               <MDBNavbarItem>
                 <LinkContainer to="/about">
                   <MDBNavbarLink>About</MDBNavbarLink>
@@ -61,21 +60,13 @@ export default function Navbar() {
               {/* <MDBNavbarItem>
                 <MDBNavbarLink href="#">Contact</MDBNavbarLink>
               </MDBNavbarItem> */}
-              {/* <MDBNavbarItem>
+              <MDBNavbarItem>
                 <LinkContainer to="/services">
                   <MDBNavbarLink>Services</MDBNavbarLink>
                 </LinkContainer>
-              </MDBNavbarItem> */}
+              </MDBNavbarItem>
             </MDBNavbarNav>
-            {/*<MDBInputGroup tag="form" className="d-flex w-auto mb-3">
-              <input
-                className="form-control"
-                placeholder="Type query"
-                aria-label="Search"
-                type="Search"
-              />
-              <MDBBtn outline>Search</MDBBtn>
-  </MDBInputGroup>*/}
+
             <LinkContainer to="/auth">
               <MDBBtn
                 className={`d-flex w-auto mb-3 ${styles.sign_up_btn}`}
