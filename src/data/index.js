@@ -286,3 +286,67 @@ export const sampleImages = [
               this timeless and ageless beauty.`,
   },
 ];
+
+export const services = [
+  {
+    id: 1,
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8yQof7I7kFLMjceSBTweiHkt1t6MUZRwbmjxC3doVMuXivVg6CYT9Yqyv-m85PulrZj0&usqp=CAU",
+    title: "Walks",
+    description: `Make your dog's day with our convenient dog walking service. 
+                We offer 30, 45, or 60-minute walks that include feeding, watering, and potty breaks. 
+                Give your furry friend the exercise and care they deserve, even when you're short on time. 
+                Let us handle their daily dose of fun-filled activity.`,
+  },
+  {
+    id: 2,
+    image: "https://www.tricountyanimalhospital.com/storage/app/media/8w.jpg",
+    title: "Vaccination",
+    description: `Get peace of mind for your pet's medication 
+                schedule with our experienced medical administrators. From pills 
+                to injections, we handle it all to ensure precise and timely dosing. 
+                Trust us to keep your pet calm and comfortable throughout the process.`,
+  },
+  {
+    id: 3,
+    image:
+      "https://www.sheknows.com/wp-content/uploads/2018/08/y5qkj4f4rpclrhgalqlu.jpeg?w=600",
+    title: "Pet Care",
+    description: `At Pet Star, we offer reliable overnight and "almost" overnight pet sitting services. 
+              Leave your worries behind as our experienced caregivers ensure your pet's normal routine of feeding, 
+              playtime, and exercise is maintained in the safety and comfort of your home. Trust us to provide attentive 
+              and personalized care for your beloved pet while you're away.`,
+  },
+  {
+    id: 4,
+    image:
+      "https://octanecdn.com/forevervetscom/Forever-Vets-Feb-2021-Vaccines-Needed-for-Dog-Grooming-min.jpg",
+    title: "Pet Grooming",
+    description: `Indulge your furry friend with our top-notch pet grooming service at Pet Star. 
+                Our skilled groomers provide professional care and attention to detail, leaving your pet 
+                looking and feeling their best. From stylish haircuts to luxurious baths, we offer a range of grooming 
+                options tailored to your pet's needs. Treat your companion to a pampering experience they'll adore at Pet Star.`,
+  },
+  {
+    id: 5,
+    image:
+      "https://media.istockphoto.com/id/1158619857/photo/a-woman-is-transporting-a-cat-in-a-special-plastic-cage-or-carrying-bag-to-a-veterinary-clinic.jpg?s=612x612&w=0&k=20&c=r8W0geXQ4qP9Kn0BeGGlgfA4qho0Wdn7QOg_c2yuN1I=",
+    title: "Pet Taxi",
+    description: `Pet Star's Pet Taxi service is designed to support your pet's busy 
+                lifestyle when you're unable to keep up. From vet appointments and groomer visits to 
+                enjoyable playdates at the park, our reliable and safe pet transportation service ensures 
+                your furry friend reaches their destination with care. Trust us to provide a stress-free and 
+                convenient solution for your pet's transportation needs.`,
+  },
+  {
+    id: 6,
+    image:
+      "https://jobs.vettimes.co.uk/getasset/ea537430-bfe0-4016-81f1-c7ccd68d936b/",
+    title: "Medical Consultation",
+    description: `At Pet Star, we provide expert pet medical consultations to address 
+                  your furry companion's health concerns. Our skilled veterinarians offer thorough examinations, 
+                  personalized treatment plans, and compassionate care. Trust us to diagnose, treat, and support your 
+                  pet's well-being, ensuring a healthier and happier life. Experience professional veterinary services with 
+                  a touch of love and expertise at Pet Star.`,
+  },
+];
