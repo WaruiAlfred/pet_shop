@@ -44,9 +44,6 @@ export default function Navbar() {
                   </MDBNavbarLink>
                 </LinkContainer>
               </MDBNavbarItem>
-              {/* <MDBNavbarItem>
-                <MDBNavbarLink href="#">Categories</MDBNavbarLink>
-              </MDBNavbarItem> */}
               <MDBNavbarItem>
                 <LinkContainer to="/images">
                   <MDBNavbarLink>Images</MDBNavbarLink>
