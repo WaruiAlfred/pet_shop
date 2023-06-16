@@ -7,6 +7,7 @@ import {
   MDBIcon,
   MDBTypography,
 } from "mdb-react-ui-kit";
+import { LinkContainer } from "react-router-bootstrap";
 
 export default function Footer() {
   return (
@@ -80,29 +81,24 @@ export default function Footer() {
             <MDBCol md="3" lg="2" xl="2" className="mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4"> Links</h6>
               <p>
-                <a href="#!" className="text-reset">
-                  Home
-                </a>
-              </p>
-              {/* <p>
-                <a href="#!" className="text-reset">
-                  Categories
-                </a>
-              </p> */}
-              <p>
-                <a href="#!" className="text-reset">
-                  Images
-                </a>
+                <LinkContainer to="/">
+                  <a className="text-reset">Home</a>
+                </LinkContainer>
               </p>
               <p>
-                <a href="#!" className="text-reset">
-                  About
-                </a>
+                <LinkContainer to="/images">
+                  <a className="text-reset">Images</a>
+                </LinkContainer>
               </p>
               <p>
-                <a href="#!" className="text-reset">
-                  Services
-                </a>
+                <LinkContainer to="/about">
+                  <a className="text-reset">About</a>
+                </LinkContainer>
+              </p>
+              <p>
+                <LinkContainer to="/services">
+                  <a className="text-reset">Services</a>
+                </LinkContainer>
               </p>
             </MDBCol>
 
